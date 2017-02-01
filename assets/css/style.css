@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Cuprum|Lobster');
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  background: #EDF2F4;
+  font-family: 'Lobster', cursive;
+  font-family: 'Cuprum', sans-serif;
+  color: #2B2D42;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 48px;
+}
+
+.container {
+  background: rgb(44, 218, 181);
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.container > div {
+  background: rgb(44, 218, 181);
+  width: 200px;
+  height: 200px;
+  border: 1px solid #8D99AE;
+  font-size: 75px;
+  color: #EDF2F4;
+  line-height: 100px;
+}
